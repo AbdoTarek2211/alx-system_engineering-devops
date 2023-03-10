@@ -1,2 +1,2 @@
 #!/bin/bash
-ls -ma | tr '\n'
+ls -map | grep -vE "^.$|^..$" | sort
