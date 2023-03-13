@@ -1,0 +1,2 @@
+#!/bin/bash
+echo "[a-z]" |  sed -r 's[ac]/[ze]/g'
