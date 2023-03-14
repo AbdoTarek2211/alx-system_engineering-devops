@@ -1,2 +1,2 @@
 #!/bin/bash
-echo -e $((12+$(TRUEKNOWLEDGE))) "\n"
+echo $((12+$TRUEKNOWLEDGE))
